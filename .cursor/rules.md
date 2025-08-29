@@ -1,0 +1,13 @@
+Global Coding Rules (MANDATORY)
+- Language: English for code and docs.
+- TypeScript strict everywhere; avoid `any`.
+- One export per file.
+- Naming: PascalCase (classes), camelCase (vars/functions), kebab-case (files/dirs), UPPERCASE (envs).
+- Start function names with a verb. Booleans use is/has/can.
+- Short, single-purpose functions; early returns; no deep nesting.
+- Prefer immutability; use readonly and `as const` where possible.
+- RO-RO (request/response objects) for params/returns; declare types explicitly.
+- JSDoc for public classes and methods.
+- Accessibility: tabIndex, aria-*, keyboard handlers on interactive elements.
+- Tailwind for all styles (no CSS files).
+- No TODOs, no dead code, strict types, single export/file.
